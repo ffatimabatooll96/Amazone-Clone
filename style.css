@@ -147,9 +147,47 @@
     height: 40px;
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
     color: white;
 }
 .panel_opt p{
     display: inline;
+    margin-left: 15px;
+    
+}
+.panel-all{
+    padding-left: 11px;
+
+}
+
+.panel_opt{
+    width: 70%;
+    font-size: 0.85rem;
+    
+}
+.hero-section{
+    background-image: url(images/hero.jpg);
+    height: 500px;
+    background-size: cover;
+    background-position: center;
+}
+
+
+.shop-section{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.box-grid{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows:repeat(2, 1fr) ;
+}
+
+.box{
+    background-color: #FFFFFF;
+    margin-bottom: 8px;
+
 }
