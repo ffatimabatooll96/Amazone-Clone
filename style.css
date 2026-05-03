@@ -164,13 +164,6 @@
     font-size: 0.85rem;
     
 }
-.hero-section{
-    background-image: url(images/hero.jpg);
-    height: 500px;
-    background-size: cover;
-    background-position: center;
-}
-
 
 .shop-section{
     display: grid;
@@ -190,4 +183,12 @@
     background-color: #FFFFFF;
     margin-bottom: 8px;
 
+}
+.img-container{
+
+    display: flex;
+}
+.img-item img{
+height: 100%;
+width: 100%;
 }
